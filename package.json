@@ -13,9 +13,11 @@
       "/Users/drewsetski/Projects/react-native/boodmoReactNative"
     ]
   ],
-  "_from": "react-native-vector-icons@3.0.0",
+  "_from": "github:skleest/react-native-vector-icons",
   "_id": "react-native-vector-icons@3.0.0",
+  "_inBundle": false,
   "_inCache": true,
+  "_integrity": "",
   "_location": "/react-native-vector-icons",
   "_nodeVersion": "6.5.0",
   "_npmOperationalInternal": {
@@ -27,24 +29,38 @@
     "email": "joel@oblador.se"
   },
   "_npmVersion": "3.10.8",
-  "_phantomChildren": {},
+  "_phantomChildren": {
+    "cliui": "3.2.0",
+    "decamelize": "1.2.0",
+    "get-caller-file": "1.0.2",
+    "os-locale": "1.4.0",
+    "read-pkg-up": "1.0.1",
+    "require-directory": "2.1.1",
+    "require-main-filename": "1.0.1",
+    "set-blocking": "2.0.0",
+    "string-width": "1.0.2",
+    "which-module": "1.0.0",
+    "y18n": "3.2.1",
+    "yargs-parser": "4.2.1"
+  },
   "_requested": {
-    "raw": "react-native-vector-icons@3.0.0",
-    "scope": null,
-    "escapedName": "react-native-vector-icons",
+    "type": "git",
+    "raw": "react-native-vector-icons@github:skleest/react-native-vector-icons",
     "name": "react-native-vector-icons",
-    "rawSpec": "3.0.0",
-    "spec": "3.0.0",
-    "type": "version"
+    "escapedName": "react-native-vector-icons",
+    "rawSpec": "github:skleest/react-native-vector-icons",
+    "saveSpec": "github:skleest/react-native-vector-icons",
+    "fetchSpec": null,
+    "gitCommittish": null
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/react-native-vector-icons/-/react-native-vector-icons-3.0.0.tgz",
+  "_resolved": "github:skleest/react-native-vector-icons#8c0639ca080d91f7859d856084a7ca85d13b2dc0",
   "_shasum": "a2f63757dee4fb89f67eef660e25e86926ae6827",
   "_shrinkwrap": null,
-  "_spec": "react-native-vector-icons@3.0.0",
-  "_where": "/Users/drewsetski/Projects/react-native/boodmoReactNative",
+  "_spec": "react-native-vector-icons@github:skleest/react-native-vector-icons",
+  "_where": "/Users/USER/Documents/Daniel/Work/AuraHealth/Aura",
   "author": {
     "name": "Joel Arvidsson",
     "email": "joel@oblador.se"
@@ -55,10 +71,12 @@
   "bugs": {
     "url": "https://github.com/oblador/react-native-vector-icons/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "lodash": "^4.0.0",
     "yargs": "^6.3.0"
   },
+  "deprecated": false,
   "description": "Customizable Icons for React Native with support for NavBar/TabBar, image source and full styling. Choose from 3000+ bundled icons or use your own.",
   "devDependencies": {
     "babel": "^6.5.2",
@@ -109,7 +127,6 @@
   ],
   "name": "react-native-vector-icons",
   "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git://github.com/oblador/react-native-vector-icons.git"
